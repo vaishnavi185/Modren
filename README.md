@@ -1,7 +1,3 @@
-That's a great idea! A good README is essential for any project, even a simple UI. It helps others (and your future self!) understand what your project does and how to run it.
 
-Here's a template for your Next.js simple UI project's README, with explanations for each section. Just fill in the bracketed information with your project's details!
-
-[Your Project Name]
 A simple and elegant UI built with Next.js. This project focuses on [briefly describe the main purpose or feature of your UI, e.g., "showcasing modern component design," "providing a clean user interface for a specific task," etc.].
 
