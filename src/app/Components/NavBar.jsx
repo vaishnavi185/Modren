@@ -1,4 +1,5 @@
 import React from 'react'
+import SubNav from './SubNav'
 
 export default function NavBar() {
   return (
@@ -21,7 +22,14 @@ export default function NavBar() {
   <div>
      <img src="/iCon/briefcase.png" alt="Logo" className='w-20 h-20 mx-auto  ' />
   </div>
+
+ 
 </div>
+ <div className='mt-[10px]' >
+  <SubNav></SubNav>
+  </div>
     </div>
+
+
   )
 }
