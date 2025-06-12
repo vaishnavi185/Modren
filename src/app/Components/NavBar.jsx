@@ -1,8 +1,10 @@
 import React from 'react'
 import SubNav from './SubNav'
+import Lang from './Lang'
 
 export default function NavBar() {
   return (
+    <>
     <div className='bg-[url(/NavBg.png)] bg-no-repeat bg-contain bg-left min-h-screen w-[460px] flex flex-col m-0 p-0'>
        <div>
         <img src="/iCon/Main.png" alt="Logo" className='w-20 h-20 mx-auto mt-[37px] ml-[30px]' />
@@ -27,8 +29,13 @@ export default function NavBar() {
 </div>
  <div className='mt-[10px]' >
   <SubNav></SubNav>
-  </div>
+  </div >
+<Lang></Lang>
     </div>
+    
+
+
+   </>
 
 
   )
