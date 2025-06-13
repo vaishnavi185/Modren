@@ -1,6 +1,7 @@
 import React from 'react'
 import SubNav from './SubNav'
 import Lang from './Lang'
+import Small from './Small'
 
 export default function NavBar() {
   return (
@@ -24,13 +25,31 @@ export default function NavBar() {
   <div>
      <img src="/iCon/briefcase.png" alt="Logo" className='w-20 h-20 mx-auto  ' />
   </div>
+  <div>
+  
+  </div>
 
  
 </div>
- <div className='mt-[10px]' >
+<div>
+  <div className='flex flex-row'>
+    <div className='flex flex-col'>
+      <div className='mt-[10px]' >
   <SubNav></SubNav>
   </div >
 <Lang></Lang>
+    </div>
+
+
+<div>
+  
+<Small></Small>
+</div>
+  </div>
+
+</div>
+ 
+
     </div>
     
 
