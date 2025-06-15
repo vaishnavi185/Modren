@@ -6,9 +6,10 @@ import Small from './Small'
 export default function NavBar() {
   return (
     <>
-    <div className='bg-[url(/NavBg.png)] bg-no-repeat bg-contain bg-left min-h-screen w-[460px] flex flex-col m-0 p-0'>
+    <div className='bg-[url(/NavBg.png)] bg-no-repeat bg-contain bg-left min-h-screen w-[460px] flex flex-col m-0 p-0 position: absolute'>
        <div>
         <img src="/iCon/Main.png" alt="Logo" className='w-20 h-20 mx-auto mt-[37px] ml-[30px]' />
+         {/* <img src="/iCon/direct-left.png" alt="Logo" className='w-20 h-20 mx-auto mt-[300px] ml-[30px]' /> */}
        </div>
 
 
@@ -48,7 +49,7 @@ export default function NavBar() {
   </div>
 
 </div>
- 
+
 
     </div>
     
