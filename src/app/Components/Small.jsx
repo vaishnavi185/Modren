@@ -11,12 +11,19 @@ export default function Small() {
 </div>
 
         </div>
-       <div className='border-[#D5D5EB] border-[1px] w-[128px] h-[43px] rounded-[64px]  ml-[39px] mt-[83px] flex items-center justify-center font-weight-[700] font-size-[16px] paddding-[16px] position: absolute'>
+        <div className='flex flex-row'>
+<div className='border-[#D5D5EB] border-[1px] w-[128px] h-[43px] rounded-[64px]  ml-[39px] mt-[0px] flex items-center justify-center font-weight-[700] font-size-[16px] paddding-[16px] position: absolute'>
           <div className='... font-outfit'>
   Free Popcorn
 </div>
 </div>
-        <div>03</div>
+        <div className='  bg-[#FFFFFF]   transform rotate-12 border-[#D5D5EB] border-[1px] w-[75px] h-[43px] rounded-[64px]  ml-[160px] mt-[5px] flex items-center justify-center font-weight-[700] font-size-[16px] paddding-[16px] position: absolute'>
+          <div className='... font-outfit'>
+ 5% off
+</div>
+        </div>
+        </div>
+       
       </div>
       {/* <div className='bg-[#040202] w-[50px] h-[50px] rounded-full mt-[10px] ml-[180px] position: absolute'>
         <img src='./iCon/tag-2.png' alt='Vector' className='w-[27px] h-[27px] mt-[13px] ml-[12px]' />
