@@ -4,7 +4,7 @@ import NavBar from './Components/NavBar';
 
 export default function Home() {
   return (
-    <div className="flex ...">
+    <div className="flex mt-[0px]">
   <div className="size-14 flex-none ..."><NavBar></NavBar></div>
   <div className="size-14 grow ...">
     <Main></Main>
