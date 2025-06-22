@@ -1,5 +1,6 @@
 import Main from './Components/Main';
 import NavBar from './Components/NavBar';
+import RightComp from './Components/RightComp';
 
 
 export default function Home() {
@@ -9,7 +10,9 @@ export default function Home() {
   <div className="size-14 grow ...">
     <Main></Main>
   </div>
-  <div className="size-14 flex-none ...">03</div>
+  <div className="size-14 flex-none ...">
+    <RightComp></RightComp>
+  </div>
 </div>
   );
 }

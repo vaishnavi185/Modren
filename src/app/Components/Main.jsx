@@ -1,4 +1,5 @@
 import Container from "./Container";
+import RightComp from "./RightComp";
 import TopNav from "./TopNav";
 import Topp from "./Topp";
 
@@ -24,6 +25,7 @@ export default function Main() {
       </div>
 
       <Container></Container>
+    
     </div>
   );
 }
