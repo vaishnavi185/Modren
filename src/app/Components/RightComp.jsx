@@ -34,7 +34,25 @@ export default function RightComp() {
   Cy cinema,<br />23 Azumaki St.
 </div>
 
+
+
         </div>
+        <div className="flex gap-[10px] mt-[20px] ml-[30px]">
+  {/* Selected Time */}
+ <div className="w-[90px] h-[40px] rounded-full bg-[#000000] text-[#FFFFFF] text-[16px] font-medium flex items-center justify-center">
+  18:00
+</div>
+
+
+  {/* Unselected Times */}
+  <div className=" font-outfit w-[90px] h-[40px] rounded-full border-2 border-[#C2C2E2] text-[#0E0E2C] text-[16px] justify-center font-medium flex items-center justify-center">
+    21:25
+  </div>
+  <div className="  font-outfit w-[90px] h-[40px] rounded-full border-2 border-[#C2C2E2] text-[#0E0E2C] text-[16px] justify-center font-medium flex items-center justify-center">
+    23:50
+  </div>
+</div>
+
       </div>
     </div>
   );
