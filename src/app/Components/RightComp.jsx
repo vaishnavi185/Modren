@@ -58,7 +58,7 @@ export default function RightComp() {
 
     </div>
     <div className='w-[320px] h-[287px] bg-[#F5F5FC] rounded-[88px] absolute top-[639px] left-[1310px]'>
-<div className="w-[304px] h-[207px] bg-white rounded-[88px] mt-[69px] ml-[8px] bg-[url('/right.png')] bg-cover bg-center bg-no-repeat flex flex-col">
+<div className="w-[304px] h-[217px] bg-white rounded-[88px] mt-[69px] ml-[8px] bg-[url('/right.png')] bg-cover bg-center bg-no-repeat flex flex-col">
  <div className='mt-[100px] ml-[155px] w-[140px] h-[58px] rounded-[84px] bg-[#FFFFFF] flex flex-row items-center gap-[4px] shadow-md opacity-[80%]'>
         <img src='/Ellipse 1.png' className='size-[30px] ml-[10px]' alt='Back' />
         <span className='font-outfit text-[12px] font-bold text-[#000000] ml-[20px]'>
@@ -67,11 +67,19 @@ export default function RightComp() {
 
       </div>
   
-    <div className='flex flex-row absolute '>
-  <div className='ml-[136px] mt-[165px] w-[122px] h-[32px] rounded-[64px] bg-[#FFFFFF] flex flex-row items-center px-4 shadow-md opacity-[80%]'>
+    <div className='flex flex-row absolute gap-[5px]'>
+  <div className='ml-[50px] mt-[165px] w-[101px] h-[32px] rounded-[64px] bg-[#FFFFFF] flex flex-row items-center px-4 shadow-md opacity-[80%]'>
+        <img src='/Ellipse3.png' className='size-[24px] ml-[10px]' alt='Back' />
+        <span className='font-outfit text-[10px] font-bold text-[#000000] ml-[20px]'>
+        Shitoda
+        </span>
+      </div>
+
+      <div className='mt-[165px] w-[122px] h-[32px] rounded-[64px] bg-[#FFFFFF] flex flex-row items-center px-4 shadow-md opacity-[80%]'>
         <img src='/Ellipse2.png' className='size-[24px] ml-[10px]' alt='Back' />
-        <span className='font-outfit text-[14px] font-bold text-[#000000] ml-[20px]'>
-      James Carl
+        <span className='font-outfit text-[12px] font-bold text-[#000000] ml-[20px]'>
+   
+     James Carl
         </span>
       </div>
       </div>
