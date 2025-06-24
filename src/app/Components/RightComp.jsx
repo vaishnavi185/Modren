@@ -54,6 +54,12 @@ export default function RightComp() {
             </div>
           </div>
 
+          <div className=" flex flex-col absolute h-[248px] w-[289px] ml-[10px]">
+            <img src='/rightbg.png' className='  mt-[35px]'>
+            </img>
+</div>
+
+
         </div>
 
       </div>
