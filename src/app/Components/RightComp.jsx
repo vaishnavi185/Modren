@@ -58,7 +58,20 @@ export default function RightComp() {
 
     </div>
     <div className='w-[320px] h-[287px] bg-[#F5F5FC] rounded-[88px] absolute top-[639px] left-[1310px]'>
-<div className="w-[304px] h-[217px] bg-white rounded-[88px] mt-[69px] ml-[8px] bg-[url('/right.png')] bg-cover bg-center bg-no-repeat flex flex-col">
+      <div className='flex flex-row mt-[20px]'>
+<text className='font-outfit text-[25px]  relative left-[40px] font-bold'>
+  Casting
+</text>
+
+<img src='/iCon/left.png' className='size-[22px] ml-[120px] mt-[10px]'>
+</img>
+<img src='/iCon/right.png' className='size-[22px] mt-[10px] ml-[10px]'>
+</img>
+      </div>
+
+
+
+<div className="w-[304px] h-[217px] bg-white rounded-[88px] mt-[20px] ml-[8px] bg-[url('/right.png')] bg-cover bg-center bg-no-repeat flex flex-col">
  <div className='mt-[100px] ml-[155px] w-[140px] h-[58px] rounded-[84px] bg-[#FFFFFF] flex flex-row items-center gap-[4px] shadow-md opacity-[80%]'>
         <img src='/Ellipse 1.png' className='size-[30px] ml-[10px]' alt='Back' />
         <span className='font-outfit text-[12px] font-bold text-[#000000] ml-[20px]'>
