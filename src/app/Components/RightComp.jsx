@@ -26,20 +26,20 @@ export default function RightComp() {
         >
           {/* Content goes here */}
 
-
-          <div className='flex flex-row '>
-
-            <img src='/iCon/location.png' className='size-[20px] ml-[180px] mt-[68px]'>
-            </img>
-            <div className='font-outfit text-[12px] font-bold text-[#8A8AAB]  ml-[10px] mt-[60px]'>
-              Cy cinema,<br />23 Azumaki St.
+          <div className='flex flex-row justify-center items-center'>
+            <div className='w-[150px] h-[120px] rounded-full bg-[#F5F5FC] flex items-center justify-center ml-[10px]'>
+              <span className='font-outfit text-[35px]'>
+                Slot
+              </span>
             </div>
 
-
-
+            <img src='/iCon/location.png' className='size-[20px] ml-[30px] mt-[68px]' />
+            <div className='font-outfit text-[12px] font-bold text-[#8A8AAB] ml-[10px] mt-[60px]'>
+              Cy cinema,<br />23 Azumaki St.
+            </div>
           </div>
           <div className="flex gap-[10px] mt-[20px] ml-[10px]">
-            {/* Selected Time */}
+            
             <div className="w-[80px] h-[40px] rounded-full bg-[#000000] text-[#FFFFFF] text-[16px] font-medium flex items-center justify-center">
               18:00
             </div>
@@ -54,11 +54,31 @@ export default function RightComp() {
             </div>
           </div>
 
-          <div className=" flex flex-col absolute h-[248px] w-[289px] ml-[10px]">
+          <div className=" flex flex-col absolute h-[235px] w-[289px] ml-[10px]">
             <img src='/rightbg.png' className='  mt-[35px]'>
             </img>
 </div>
 
+<div className='flex flex-col  relative'>
+
+  <text className='font-outfit text-[12px] font-bold mt-[330px] ml-[29px]'>
+    Available
+  </text>
+  <div className='flex flex-row gap-[5px]'>
+
+  <text className='font-outfit text-[42px] font-bold mt-[5px] ml-[29px] absolute'>
+    158
+  </text>
+   <text className='font-outfit text-[12px] font-bold ml-[100px] mt-[15px] text-[#8A8AAB]'>
+    seats
+  </text>
+
+  <div className='ml-[49px]'>
+<img src='/red.png'className='size-[70px]'>
+</img>
+  </div>
+  </div>
+</div>
 
         </div>
 
