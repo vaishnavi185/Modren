@@ -45,7 +45,6 @@ export default function RightComp() {
             </div>
 
 
-            {/* Unselected Times */}
             <div className=" font-outfit w-[80px] h-[40px] rounded-full border-2 border-[#C2C2E2] text-[#0E0E2C] text-[16px] justify-center font-medium flex items-center justify-center">
               21:25
             </div>
