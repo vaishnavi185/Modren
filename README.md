@@ -1,3 +1,12 @@
+🎬 Anime Cinema Booking UI
+A simple and elegant UI built with Next.js.
+This project aims to create a modern, anime-themed movie booking interface that offers a visually immersive experience, featuring beautifully styled components and real-time layout transitions.
 
-A simple and elegant UI built with Next.js. This project focuses on [briefly describe the main purpose or feature of your UI, e.g., "showcasing modern component design," "providing a clean user interface for a specific task," etc.].
+🛠️ Built With
+Next.js
+
+Tailwind CSS
+
+📌 Note
+This is a static frontend-only project and does not include any backend logic or dynamic data fetching. All content is hardcoded for design demo purposes.
 
