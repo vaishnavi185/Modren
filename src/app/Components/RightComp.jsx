@@ -24,7 +24,7 @@ export default function RightComp() {
             borderRadius: '60px'
           }}
         >
-          {/* Content goes here */}
+         
 
           <div className='flex flex-row justify-center items-center'>
             <div className='w-[150px] h-[120px] rounded-full bg-[#F5F5FC] flex items-center justify-center ml-[10px]'>
